@@ -883,7 +883,7 @@ function Library:create(options)
 	settingsTab:keybind{
 		Name = "Toggle Key",
 		Description = "Key to show/hide the UI.",
-		Keybind = Enum.KeyCode.Delete,
+		Keybind = Enum.KeyCode.LeftAlt,
 		Callback = function()
 			self.Toggled = not self.Toggled
 			Library:show(self.Toggled)
@@ -892,7 +892,7 @@ function Library:create(options)
 
 	settingsTab:toggle{
 		Name = "Lock Dragging",
-		Description = "Makes sure you can't drag the UI outside of the window.",
+		Description = "Don't drag the interface off-screen",
 		StartingState = true,
 		Callback = function(state)
 			Library.LockDragging = state
@@ -917,8 +917,7 @@ function Library:create(options)
 
 	rawset(mt, "creditsContainer", creditsTab.container)
 
-	creditsTab:credit{Name = "Abstract", Description = "UI Library Developer", Discord = "Abstract#8007", V3rmillion = "AbstractPoo"}
-	creditsTab:credit{Name = "Deity", Description = "UI Library Developer", Discord = "Deity#0228", V3rmillion = "0xDEITY"}
+	creditsTab:credit{Name = "Jsuth", Description = "UI Library Developer | Scripter", Discord = "Jsuth#0810", V3rmillion = "DevJsuth"}
 
 	return mt
 end
