@@ -14,8 +14,8 @@
 
 edited: 12/26
 developers:
-v3rm Dev_Jsuth	discord Jsuth#0810
-v3rm 0xDEITY		discord empty#3759
+v3rm DevJsuth	discord Jsuth#0810
+v3rm NONE		discord empty#3759
 
 ]]
 
