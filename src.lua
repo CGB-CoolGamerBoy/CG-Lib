@@ -433,7 +433,7 @@ function Library:create(options)
 		Name = "Cool Gamer",
 		Size = UDim2.fromOffset(600, 400),
 		Theme = self.Themes[settings.Theme],
-		Link = "https://github.com/CGB-CoolGamerBoy/cg-lib"
+		Link = "https://github.com/CGB-CoolGamerBoy/CGBHub"
 	}, options)
 
 	if getgenv and getgenv().CG_UI then
