@@ -3530,6 +3530,10 @@ function Library:label(options)
 	return methods
 end
 
+function CgLib:Destroy()
+	GUI:Destroy()
+end
+
 return setmetatable(Library, {
 	__index = function(_, i)
 		return rawget(Library, i:lower())
